@@ -28,4 +28,5 @@ a = 5
 
 #We can denote multiple variable together by using ","Comma
 A , B = 5 , 6
+
 print(A,B)
