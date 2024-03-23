@@ -25,3 +25,7 @@ a = 5
 #we can use underscore is Variable "_"
 #we cant use !@#$%^&* as identifier / Variable
 #A digit cant come in first (1name NOT OK)/(name1 OK)
+
+#We can denote multiple variable together by using ","Comma
+A , B = 5 , 6
+print(A,B)
