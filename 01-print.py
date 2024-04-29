@@ -1,7 +1,7 @@
 print("Kallol Das Kushol")
 print("My age is 21")
 #A string should be in double course("")
-#we have to use multiple print function to write in multip;e line
+#we have to use multiple print function to write in multiple line
 
 print("Kallol Das Kushol" , ("age 21"))
 print("Kallol Das Kushol" + ("age 21"))
