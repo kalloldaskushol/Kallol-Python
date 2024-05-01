@@ -26,7 +26,7 @@ print(collection)
 #set.add(element) -> adds an element
 #set.remove(element) -> removes the given element
 #set.clear() -> empties the set
-#set.pop() -> removes a rendom value
+#set.pop() -> outputs a rendom value
 
 #set.union(set2) -> combines both set values & returns new
 #set.intersection(set2) -> combines common values $ returns new
