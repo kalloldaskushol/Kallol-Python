@@ -30,7 +30,9 @@ for i in list:
 list = [1,4,9,16,25,36,49,64,81,100]
 #Find the value is in the list or not
 
-x = int(input("Enter the number:"))
+x = int(input("Enter the number:"))#the search will be down one to one
+                                   #means 1st it will check idx 0 then 1 then 2....
+                                   #its called linear searching
 index = 0
 for i in list:
     if (x == i):
