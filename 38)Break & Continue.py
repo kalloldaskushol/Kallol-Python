@@ -20,9 +20,9 @@ print("End of loop")
 
 i = 1
 while i <= 10:
-    if i == 5:
-        i = i + 1
-        continue # the previous i means skip 5 and become 6 and run... 
+    if (i == 5):
+        i = i + 1 #if i = 5 then increase i
+        continue #and skip it - 5 
     print(i)
     i = i + 1
 
@@ -30,8 +30,8 @@ while i <= 10:
 i = 1
 while(i <= 10):
     if i % 2 == 0:
-        i += 1
-        continue# modulo 2 / even will be skiped
+        i += 1 #if modulo turns into 0 then i will be increased
+        continue#which of the value outputs modulo 0 thats even and it will be skiped
     print("odd",i) 
     i +=1
 
@@ -39,7 +39,9 @@ while(i <= 10):
 i = 1
 while(i <= 10):
     if (i%2 != 0):
-        i +=1
-        continue
+        i +=1 #if modulo is not equal to 0 then i will increased 
+        continue #which of the value outputs modulo not equals to 0 thats odd and it will be skiped
     print("even",i)
     i += 1
+
+    

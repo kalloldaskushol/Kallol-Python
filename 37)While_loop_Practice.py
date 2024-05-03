@@ -37,3 +37,15 @@ while( i < len(tuple)):
     if(tuple[i] == x):
         print("Found at index number",i)
     i = i + 1 #it should be in while not in if 
+
+#Even odd find by while loop
+
+x = int(input("tell a num:"))
+i=0
+while i <= x:
+    if(x%2 == 0):
+        print("Even")
+    else:
+        print("odd")
+        i+=1
+    break
