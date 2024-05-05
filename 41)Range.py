@@ -23,3 +23,10 @@ print("END")
 
 for i in range(1,10,2):
     print(i) #its also the program to output odd number
+
+"""
+if we want a empty loop then we can use (pass)
+we can use it also on if/else
+"""
+for i in range(1,1233,1):
+    pass
