@@ -42,3 +42,23 @@ def show_backwise_hello(n):
     print("HELLO") #it will exicute after calling next function
 
 show_backwise_hello(5)
+
+print("END")
+#write a recursion program to find the factorial value of n
+
+"""
+n! = (n-1)! * n  -> in the case n is dependent on n-1 so we can say its a recursive function
+5! = (5-1)! * 5  
+"""
+
+def factorial(n):
+    if(n == 0 or n ==  1):
+        return 1
+    else:
+        return factorial(n-1) * n
+
+print(factorial(5))
+print(factorial(1))
+
+print("END")
+

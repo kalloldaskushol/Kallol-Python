@@ -1,0 +1,3 @@
+using write function to write 
+it will dlt previous text
+hello we are using withwe are using append to write
