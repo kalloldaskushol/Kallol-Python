@@ -15,7 +15,7 @@ file = open('example.txt', 'a') [append will write something from the last line]
 
 #We have to open a file before reading or writing
 
-file = open("demo.txt","r")
+file = open("49)demo.txt","r")
 # data = file.read()
 # print(data)
 print(file.read())
@@ -34,12 +34,12 @@ t -> text mode (default) = [file = open("file_name","rt")]
 """
 
 #Reading a file
-f = open("demo.txt","r")
+f = open("49)demo.txt","r")
 print(f.read(10))#it will output 1st 10th character
 print(f.readline()) #in this case the line will start after the 10 char bcz 1st 10 character is called previously and IO function works as a pointer
 f.close()
 
-f = open("demo.txt","r")
+f = open("49)demo.txt","r")
 print(f.readline()) #when we use readline function then we find a extra line which is because before every new line there is a \n
 print(f.readline()) #now extra space will not be created but if we print next line again then it will print next line as a space line
 f.close()
@@ -50,13 +50,13 @@ f.close()
 #Open a file for writing (this will create a new file or truncate[delete present data and become a blank sheet] an existing file)
 # file = open('example.txt', 'w')
 
-f = open("demo2.txt" , "w")
+f = open("50)demo2.txt" , "w")
 f.write("using write function to write \nit will dlt previous text")
 #if file name does not matches then it will make a file and then write
 
 #If we want to add text at the bottom but not want to erase old text then we will use append
 
-f = open("demo2.txt","a")
+f = open("50)demo2.txt","a")
 f.write("we are using append to write")#it will start where the writing is stops means on the last pointer
 
 # https://stackoverflow.com/questions/1466000/difference-between-modes-a-a-w-w-and-r-in-built-in-open-function
@@ -95,12 +95,12 @@ f.write("we are using append to write")#it will start where the writing is stops
 #With syntex
 #Opening a file and giving him a name it will be in a indented part and it will be closed by the closing of indentetion
 print("START NEW FILE")
-with open("demo.txt" , "r") as g:
+with open("49)demo.txt" , "r") as g:
     # data = g.read()
     # print(data)
     print(g.read())
 
-with open("demo2.txt","a+") as h:
+with open("50)demo2.txt","a+") as h:
     h.write("\nhello we are using with")
     #the a+ is writen after the write function ends in code line 53
     #we are also using append(CODE LINE:59) in previous thats why the previous writing is coming on the last
