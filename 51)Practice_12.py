@@ -56,3 +56,19 @@ def find_line_Numb():
     return print("-1")
 
 find_line_Numb()
+
+
+#WAP which will from a file containing numbers separated by comma & print the count of even numbers
+
+with open("53)Practice2.txt","w") as f:
+    f.write("1,2,4,55,86,76")
+
+count = 0
+with open("53)Practice2.txt","r") as f:
+    data = f.read()
+    numbers = data.split(",")
+    for value in numbers:
+        if(int(value) % 2 == 0):
+            count += 1
+
+print("the number of even number is",count)
