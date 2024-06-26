@@ -30,7 +30,7 @@ class Room:
         self.name = name
         self.marks = marks
 
-s1 = Room("kallol",99.8)
+s1 = Room("kallol",99.8) # If there are mulltiple constracters then in which the parameter will match that constracter will be worked
 print("student.1 =" ,s1.name,s1.marks)
 
 s2 = Room("Shourav",100)

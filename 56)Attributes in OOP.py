@@ -22,4 +22,5 @@ class Student():
         self.id = id
 
 s1 = Student("kallol",6)
-print(s1.name ,s1.id, s1.University) # If their are 2 attibutes in a program and the have the same name the obj attribute will be exicute
+print(s1.name ,s1.id, s1.University) 
+# If their are 2 attibutes in a program and the have the same name the obj attribute will be exicute
