@@ -1,5 +1,7 @@
 #Single Line if / TERNARY OPERATOR 
 #variable = value1 if condition else value2
+
+
 food = input ("whats the Food :")
 eat = "yes" if food == "cake" else "no"
 print(eat)

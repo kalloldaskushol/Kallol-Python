@@ -8,7 +8,8 @@ elif(CONDITION) :
 else:
     STATEMENT
 """
-light =input("What is the colour:")
+light =input("What is the colour:(red/green/yellow)")
+
 if(light == "red"):
     print("STOP")
 elif(light == "green"):

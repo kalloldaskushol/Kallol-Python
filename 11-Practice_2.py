@@ -3,6 +3,8 @@ Practice_2
 print output for
 A = 5 & G = M
 A = 2 & G = F
+
+the code is ->
 """
 A = int(input("A ="))
 G = input("F/M =")
@@ -14,6 +16,8 @@ elif(A == 5 and G == "M"):
     print("Fee is 300")
 else:
     print("No Fee")
+
+
 """
 in 1st case 3rd condition is applied
 in 2nd case their is a or function so the equation 0 or 0 or 1 which ends with the result 1/True

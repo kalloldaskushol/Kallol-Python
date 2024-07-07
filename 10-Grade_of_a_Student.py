@@ -2,6 +2,7 @@
 Make a program to find the grade of a student
 """
 marks = int(input("Input Your mark :"))
+
 if(marks >= 90 and marks<=100):
     print("Grade of the student is -> A")
 elif(marks >=80 and marks<90):
