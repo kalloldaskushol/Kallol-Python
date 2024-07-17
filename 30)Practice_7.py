@@ -9,3 +9,11 @@ print(grade.count("A"))
 grade =["C" , "D" , "A" , "A" , "B" , "B" , "A"]
 grade.sort()
 print(grade)
+
+#WAP that accepts a sequence of comma-separated numbers from the user and generates a list and a tuple of those numbers.
+
+values = input("input some comma-separated nummbers:")
+list = values.split(",")
+tuple = tuple(list)
+print("list:",list)
+print("tuple", tuple)

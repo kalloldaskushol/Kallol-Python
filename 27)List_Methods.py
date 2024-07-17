@@ -27,3 +27,8 @@ print(list)#[0 , 1 , 2 , 3]
 #list.pop(idx) -removes the index
 list.pop(2)
 print(list)#[0 , 1 , 2 , 3]
+
+#list.split("the center char")
+list_1 = input("inpput list values by comma:")
+list_1.split(",")
+print(list_1)
